@@ -1,0 +1,8 @@
+INFO    2024-05-04 12:31:29,326 [main] base.BaseTest  - Test Execution started
+INFO    2024-05-04 12:31:29,329 [main] base.BaseTest  - Config file has been loaded
+INFO    2024-05-04 12:31:29,329 [main] base.BaseTest  - OR file has been loaded
+INFO    2024-05-04 12:31:34,287 [main] base.BaseTest  - Chrome browser has launched
+INFO    2024-05-04 12:31:35,193 [main] base.BaseTest  - Database connection established
+INFO    2024-05-04 12:31:37,363 [main] base.BaseTest  - Typed on keyword: username_ID and entered value: testing1
+INFO    2024-05-04 12:31:37,558 [main] base.BaseTest  - Typed on keyword: pswd_NAME and entered value: password1
+INFO    2024-05-04 12:31:37,703 [main] base.BaseTest  - Clicked on keyword: loginbtn_XPATH
