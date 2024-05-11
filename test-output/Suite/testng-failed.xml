@@ -4,15 +4,15 @@
   <listeners>
     <listener class-name="extentlisteners.ExtentListeners"/>
   </listeners>
-  <test thread-count="5" name="Facebook User Reg Test(failed)">
+  <test thread-count="5" name="Add Customer Test(failed)">
     <classes>
-      <class name="testcases.FacebookReg">
+      <class name="testcases.AddCustomerTest">
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="doReg"/>
+          <include name="addCustomer" invocation-numbers="0 1"/>
         </methods>
-      </class> <!-- testcases.FacebookReg -->
+      </class> <!-- testcases.AddCustomerTest -->
     </classes>
-  </test> <!-- Facebook User Reg Test(failed) -->
+  </test> <!-- Add Customer Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -1,8 +1,17 @@
-INFO    2024-05-04 12:31:29,326 [main] base.BaseTest  - Test Execution started
-INFO    2024-05-04 12:31:29,329 [main] base.BaseTest  - Config file has been loaded
-INFO    2024-05-04 12:31:29,329 [main] base.BaseTest  - OR file has been loaded
-INFO    2024-05-04 12:31:34,287 [main] base.BaseTest  - Chrome browser has launched
-INFO    2024-05-04 12:31:35,193 [main] base.BaseTest  - Database connection established
-INFO    2024-05-04 12:31:37,363 [main] base.BaseTest  - Typed on keyword: username_ID and entered value: testing1
-INFO    2024-05-04 12:31:37,558 [main] base.BaseTest  - Typed on keyword: pswd_NAME and entered value: password1
-INFO    2024-05-04 12:31:37,703 [main] base.BaseTest  - Clicked on keyword: loginbtn_XPATH
+INFO    2024-05-11 13:43:55,998 [main] base.BaseTest  - Test Execution started
+INFO    2024-05-11 13:43:55,999 [main] base.BaseTest  - Config file has been loaded
+INFO    2024-05-11 13:43:55,999 [main] base.BaseTest  - OR file has been loaded
+INFO    2024-05-11 13:43:58,266 [main] base.BaseTest  - Chrome browser has launched
+INFO    2024-05-11 13:43:58,626 [main] base.BaseTest  - Database connection established
+INFO    2024-05-11 13:44:00,853 [main] base.BaseTest  - Clicked on keyword: bankManagerLoginbtn_XPATH
+INFO    2024-05-11 13:44:01,251 [main] base.BaseTest  - Element Present with keyword: addCustomerBtn_XPATH
+INFO    2024-05-11 13:44:01,654 [main] base.BaseTest  - Clicked on keyword: addCustomerBtn_XPATH
+INFO    2024-05-11 13:44:02,008 [main] base.BaseTest  - Typed on keyword: firstName_XPATH and entered value: bhagya
+INFO    2024-05-11 13:44:02,090 [main] base.BaseTest  - Typed on keyword: lastName_XPATH and entered value: kudupudi
+INFO    2024-05-11 13:44:02,157 [main] base.BaseTest  - Typed on keyword: zipcode_XPATH and entered value: ER34GH
+INFO    2024-05-11 13:44:02,213 [main] base.BaseTest  - Clicked on keyword: addCustbtn_XPATH
+INFO    2024-05-11 13:44:02,288 [main] base.BaseTest  - Clicked on keyword: addCustomerBtn_XPATH
+INFO    2024-05-11 13:44:02,348 [main] base.BaseTest  - Typed on keyword: firstName_XPATH and entered value: selenium
+INFO    2024-05-11 13:44:02,411 [main] base.BaseTest  - Typed on keyword: lastName_XPATH and entered value: testing
+INFO    2024-05-11 13:44:02,472 [main] base.BaseTest  - Typed on keyword: zipcode_XPATH and entered value: T6yHH5
+INFO    2024-05-11 13:44:02,513 [main] base.BaseTest  - Clicked on keyword: addCustbtn_XPATH

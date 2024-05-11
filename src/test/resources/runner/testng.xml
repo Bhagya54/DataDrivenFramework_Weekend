@@ -7,16 +7,16 @@
 	</listeners>
 
 
-	<test name="Facebook Login Test">
+	<test name="Bank Login">
 		<classes>
-			<class name="testcases.FacebookLogin" />
+			<class name="testcases.BankManagerLoginTest" />
 		</classes>
 	</test>
 	
-	<test name="Facebook User Reg Test">
+	<test name="Add Customer Test">
 		<classes>
-			<class name="testcases.FacebookReg" />
+			<class name="testcases.AddCustomerTest" />
 		</classes>
-	</test>
+	</test> 
 
 </suite> <!-- Suite -->

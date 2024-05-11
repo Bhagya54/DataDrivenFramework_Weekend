@@ -120,6 +120,27 @@ public class BaseTest {
 	}
 	
 	//keyword driven
+	
+	public static boolean isElementPresent(String keyword) {
+		try {
+		if (keyword.endsWith("_ID")) {
+			driver.findElement(By.id(or.getProperty(keyword)));
+		} else if (keyword.endsWith("_NAME")) {
+			driver.findElement(By.name(or.getProperty(keyword)));
+		} else if (keyword.endsWith("_XPATH")) {
+			driver.findElement(By.xpath(or.getProperty(keyword)));
+		} else if (keyword.endsWith("_CSS")) {
+			driver.findElement(By.cssSelector(or.getProperty(keyword)));
+		}
+		log.info("Element Present with keyword: " + keyword);
+		return true;
+		
+		}
+		catch (Exception e) {
+			return false;
+		}
+		
+	}
 		public static void type(String keyword, String value) {
 			if (keyword.endsWith("_ID")) {
 				driver.findElement(By.id(or.getProperty(keyword))).sendKeys(value);
