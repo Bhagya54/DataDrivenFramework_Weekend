@@ -1,17 +1,25 @@
-INFO    2024-05-11 13:43:55,998 [main] base.BaseTest  - Test Execution started
-INFO    2024-05-11 13:43:55,999 [main] base.BaseTest  - Config file has been loaded
-INFO    2024-05-11 13:43:55,999 [main] base.BaseTest  - OR file has been loaded
-INFO    2024-05-11 13:43:58,266 [main] base.BaseTest  - Chrome browser has launched
-INFO    2024-05-11 13:43:58,626 [main] base.BaseTest  - Database connection established
-INFO    2024-05-11 13:44:00,853 [main] base.BaseTest  - Clicked on keyword: bankManagerLoginbtn_XPATH
-INFO    2024-05-11 13:44:01,251 [main] base.BaseTest  - Element Present with keyword: addCustomerBtn_XPATH
-INFO    2024-05-11 13:44:01,654 [main] base.BaseTest  - Clicked on keyword: addCustomerBtn_XPATH
-INFO    2024-05-11 13:44:02,008 [main] base.BaseTest  - Typed on keyword: firstName_XPATH and entered value: bhagya
-INFO    2024-05-11 13:44:02,090 [main] base.BaseTest  - Typed on keyword: lastName_XPATH and entered value: kudupudi
-INFO    2024-05-11 13:44:02,157 [main] base.BaseTest  - Typed on keyword: zipcode_XPATH and entered value: ER34GH
-INFO    2024-05-11 13:44:02,213 [main] base.BaseTest  - Clicked on keyword: addCustbtn_XPATH
-INFO    2024-05-11 13:44:02,288 [main] base.BaseTest  - Clicked on keyword: addCustomerBtn_XPATH
-INFO    2024-05-11 13:44:02,348 [main] base.BaseTest  - Typed on keyword: firstName_XPATH and entered value: selenium
-INFO    2024-05-11 13:44:02,411 [main] base.BaseTest  - Typed on keyword: lastName_XPATH and entered value: testing
-INFO    2024-05-11 13:44:02,472 [main] base.BaseTest  - Typed on keyword: zipcode_XPATH and entered value: T6yHH5
-INFO    2024-05-11 13:44:02,513 [main] base.BaseTest  - Clicked on keyword: addCustbtn_XPATH
+INFO    2024-05-12 09:37:35,820 [main] base.BaseTest  - Test Execution started
+INFO    2024-05-12 09:37:35,822 [main] base.BaseTest  - Config file has been loaded
+INFO    2024-05-12 09:37:35,822 [main] base.BaseTest  - OR file has been loaded
+INFO    2024-05-12 09:37:41,291 [main] base.BaseTest  - Chrome browser has launched
+INFO    2024-05-12 09:37:42,448 [main] base.BaseTest  - Database connection established
+INFO    2024-05-12 09:37:44,344 [main] base.BaseTest  - Clicked on keyword: bankManagerLoginbtn_XPATH
+INFO    2024-05-12 09:37:44,638 [main] base.BaseTest  - Element Present with keyword: addCustomerBtn_XPATH
+INFO    2024-05-12 09:37:45,587 [main] base.BaseTest  - Clicked on keyword: addCustomerBtn_XPATH
+INFO    2024-05-12 09:37:45,991 [main] base.BaseTest  - Typed on keyword: firstName_XPATH and entered value: bhagya
+INFO    2024-05-12 09:37:46,124 [main] base.BaseTest  - Typed on keyword: lastName_XPATH and entered value: kudupudi
+INFO    2024-05-12 09:37:46,257 [main] base.BaseTest  - Typed on keyword: zipcode_XPATH and entered value: ER34GH
+INFO    2024-05-12 09:37:46,374 [main] base.BaseTest  - Clicked on keyword: addCustbtn_XPATH
+INFO    2024-05-12 09:37:46,574 [main] base.BaseTest  - Clicked on keyword: addCustomerBtn_XPATH
+INFO    2024-05-12 09:37:46,709 [main] base.BaseTest  - Typed on keyword: firstName_XPATH and entered value: selenium
+INFO    2024-05-12 09:37:46,868 [main] base.BaseTest  - Typed on keyword: lastName_XPATH and entered value: testing
+INFO    2024-05-12 09:37:47,012 [main] base.BaseTest  - Typed on keyword: zipcode_XPATH and entered value: T6yHH5
+INFO    2024-05-12 09:37:47,120 [main] base.BaseTest  - Clicked on keyword: addCustbtn_XPATH
+INFO    2024-05-12 09:37:47,357 [main] base.BaseTest  - Clicked on keyword: openAccountbtn_XPATH
+INFO    2024-05-12 09:37:47,848 [main] base.BaseTest  - Selected value as: bhagya kudupudi for element with keyword: customerName_ID
+INFO    2024-05-12 09:37:48,010 [main] base.BaseTest  - Selected value as: Dollar for element with keyword: currency_ID
+INFO    2024-05-12 09:37:48,104 [main] base.BaseTest  - Clicked on keyword: processBtn_XPATH
+INFO    2024-05-12 09:37:48,216 [main] base.BaseTest  - Clicked on keyword: openAccountbtn_XPATH
+INFO    2024-05-12 09:37:48,367 [main] base.BaseTest  - Selected value as: selenium testing for element with keyword: customerName_ID
+INFO    2024-05-12 09:37:48,522 [main] base.BaseTest  - Selected value as: Rupee for element with keyword: currency_ID
+INFO    2024-05-12 09:37:48,602 [main] base.BaseTest  - Clicked on keyword: processBtn_XPATH

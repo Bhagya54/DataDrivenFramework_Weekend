@@ -1,25 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-11T13:44:00 IST" name="Suite" finished-at="2024-05-11T13:44:02 IST" duration-ms="2358">
+  <suite started-at="2024-05-12T09:32:41 IST" name="Suite" finished-at="2024-05-12T09:32:47 IST" duration-ms="5308">
     <groups>
     </groups>
-    <test started-at="2024-05-11T13:44:00 IST" name="Bank Login" finished-at="2024-05-11T13:44:01 IST" duration-ms="1101">
+    <test started-at="2024-05-12T09:32:41 IST" name="Bank Login" finished-at="2024-05-12T09:32:42 IST" duration-ms="987">
       <class name="testcases.BankManagerLoginTest">
-        <test-method signature="bankManagerLogin()[pri:0, instance:testcases.BankManagerLoginTest@7728643a]" started-at="2024-05-11T13:44:00 IST" name="bankManagerLogin" finished-at="2024-05-11T13:44:01 IST" duration-ms="1050" status="PASS">
+        <test-method signature="bankManagerLogin()[pri:0, instance:testcases.BankManagerLoginTest@28c0b664]" started-at="2024-05-12T09:32:41 IST" name="bankManagerLogin" finished-at="2024-05-12T09:32:42 IST" duration-ms="858" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bankManagerLogin -->
       </class> <!-- testcases.BankManagerLoginTest -->
     </test> <!-- Bank Login -->
-    <test started-at="2024-05-11T13:44:01 IST" name="Add Customer Test" finished-at="2024-05-11T13:44:02 IST" duration-ms="942">
+    <test started-at="2024-05-12T09:32:43 IST" name="Add Customer Test" finished-at="2024-05-12T09:32:45 IST" duration-ms="2000">
       <class name="testcases.AddCustomerTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.AddCustomerTest@79f227a9]" started-at="2024-05-11T13:43:55 IST" name="setUp" finished-at="2024-05-11T13:44:00 IST" duration-ms="4193" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="addCustomer(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.AddCustomerTest@79f227a9]" started-at="2024-05-11T13:44:01 IST" name="addCustomer" data-provider="dp" finished-at="2024-05-11T13:44:02 IST" duration-ms="629" status="PASS">
+        <test-method signature="addCustomer(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.AddCustomerTest@7674a051]" started-at="2024-05-12T09:32:43 IST" name="addCustomer" data-provider="dp" finished-at="2024-05-12T09:32:44 IST" duration-ms="1116" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -40,7 +36,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addCustomer -->
-        <test-method signature="addCustomer(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.AddCustomerTest@79f227a9]" started-at="2024-05-11T13:44:02 IST" name="addCustomer" data-provider="dp" finished-at="2024-05-11T13:44:02 IST" duration-ms="287" status="PASS">
+        <test-method signature="addCustomer(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.AddCustomerTest@7674a051]" started-at="2024-05-12T09:32:44 IST" name="addCustomer" data-provider="dp" finished-at="2024-05-12T09:32:45 IST" duration-ms="836" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -61,11 +57,51 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addCustomer -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.AddCustomerTest@79f227a9]" started-at="2024-05-11T13:44:02 IST" name="tearDown" finished-at="2024-05-11T13:44:02 IST" duration-ms="171" status="PASS">
+      </class> <!-- testcases.AddCustomerTest -->
+    </test> <!-- Add Customer Test -->
+    <test started-at="2024-05-12T09:32:45 IST" name="Open Account Test" finished-at="2024-05-12T09:32:47 IST" duration-ms="1445">
+      <class name="testcases.OpenAccountTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.OpenAccountTest@323e8306]" started-at="2024-05-12T09:32:35 IST" name="setUp" finished-at="2024-05-12T09:32:41 IST" duration-ms="6645" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="openAccount(java.lang.String,java.lang.String)[pri:0, instance:testcases.OpenAccountTest@323e8306]" started-at="2024-05-12T09:32:45 IST" name="openAccount" data-provider="dp" finished-at="2024-05-12T09:32:46 IST" duration-ms="892" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bhagya kudupudi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dollar]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAccount -->
+        <test-method signature="openAccount(java.lang.String,java.lang.String)[pri:0, instance:testcases.OpenAccountTest@323e8306]" started-at="2024-05-12T09:32:46 IST" name="openAccount" data-provider="dp" finished-at="2024-05-12T09:32:47 IST" duration-ms="530" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[selenium testing]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rupee]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAccount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.OpenAccountTest@323e8306]" started-at="2024-05-12T09:32:47 IST" name="tearDown" finished-at="2024-05-12T09:32:47 IST" duration-ms="301" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testcases.AddCustomerTest -->
-    </test> <!-- Add Customer Test -->
+      </class> <!-- testcases.OpenAccountTest -->
+    </test> <!-- Open Account Test -->
   </suite> <!-- Suite -->
 </testng-results>

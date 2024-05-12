@@ -3,7 +3,6 @@ package base;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.io.ObjectInputFilter.Config;
 import java.sql.SQLException;
 import java.time.Duration;
 import java.util.Properties;
@@ -12,12 +11,15 @@ import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 
+import extentlisteners.ExtentListeners;
 import utility.DbManager;
 import utility.ExcelReader;
 import utility.MonitoringMail;
@@ -152,6 +154,7 @@ public class BaseTest {
 				driver.findElement(By.cssSelector(or.getProperty(keyword))).sendKeys(value);
 			}
 			log.info("Typed on keyword: " + keyword + " and entered value: " +value);
+			ExtentListeners.test.info("Typed on keyword: " + keyword + " and entered value: " +value);
 		}
 
 		public static void click(String keyword) {
@@ -166,6 +169,26 @@ public class BaseTest {
 				driver.findElement(By.cssSelector(or.getProperty(keyword))).click();
 			}
 			log.info("Clicked on keyword: " + keyword);
+			ExtentListeners.test.info("Clicked on keyword: " + keyword);
+		}
+		
+		public static void select(String keyword,String value) {
+			Select s;
+			WebElement ele=null;
+			if (keyword.endsWith("_ID")) {
+				ele=driver.findElement(By.id(or.getProperty(keyword)));
+			} 
+			else if (keyword.endsWith("_NAME")) {
+				ele=driver.findElement(By.name(or.getProperty(keyword)));
+			} else if (keyword.endsWith("_XPATH")) {
+				ele=driver.findElement(By.xpath(or.getProperty(keyword)));
+			} else if (keyword.endsWith("_CSS")) {
+				ele=driver.findElement(By.cssSelector(or.getProperty(keyword)));
+			}
+			s=new Select(ele);
+			s.selectByVisibleText(value);
+			log.info("Selected value as: " + value + " for element with keyword: " + keyword);
+			ExtentListeners.test.info("Selected value as: " + value + " for element with keyword: " + keyword);
 		}
 	
 	@AfterSuite
